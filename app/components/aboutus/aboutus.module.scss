@@ -1,0 +1,600 @@
+.about_us_Wrapper {
+  .historyPart {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      padding: 30px 0px;
+    }
+
+    @media (max-width: 767px) {
+      padding: 20px 0px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+    }
+    @media (max-width: 567px) {
+      padding: 30px 0px;
+      row-gap: 40px;
+      align-items: flex-end;
+    }
+
+    .historyleft {
+      width: 43%;
+      @media (max-width: 991px) {
+        display: flex;
+        align-items: center;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+      @media (max-width: 481px) {
+        width: 90%;
+      }
+      .greenback {
+        background: #4dba4d;
+        width: 100%;
+        height: 460px;
+        position: relative;
+        @media (max-width: 1399px) {
+          height: 400px;
+        }
+        @media (max-width: 1199px) {
+          height: 340px;
+        }
+        @media (max-width: 991px) {
+          height: 260px;
+        }
+        @media (max-width: 767px) {
+          height: 400px;
+        }
+
+        @media (max-width: 481px) {
+          height: 300px;
+        }
+        @media (max-width: 375px) {
+          height: 266px;
+        }
+        @media (max-width: 320px) {
+          height: 225px;
+        }
+        img {
+          position: absolute;
+          top: 25px;
+          right: 25px;
+          width: 100%;
+          height: auto;
+          @media (max-width: 991px) {
+            top: 20px;
+            right: 20px;
+          }
+          @media (max-width: 481px) {
+            top: 20px;
+            right: 20px;
+          }
+        }
+      }
+    }
+    .historyRight {
+      width: 53%;
+      padding: 30px 0px;
+      @media (max-width: 991px) {
+        padding: 10px 30px;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0px;
+      }
+      @media (max-width: 481px) {
+        width: 90%;
+      }
+
+      h5 {
+        color: #4dba4d;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      h4 {
+        color: #000;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        @media (max-width: 991px) {
+          font-size: 24px;
+        }
+      }
+      p {
+        color: #323232;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 185.714% */
+        letter-spacing: 0.28px;
+        @media (max-width: 991px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+      .yearExp_main {
+        display: flex;
+        @media (max-width: 991px) {
+          justify-content: space-between;
+        }
+        @media (max-width: 767px) {
+          flex-direction: column;
+          row-gap: 20px;
+        }
+        .yearExp {
+          width: 32%;
+          @media (max-width: 767px) {
+            width: 100%;
+            text-align: center;
+          }
+          h6 {
+            color: #4dba4d;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            @media (max-width: 1199px) {
+              font-size: 34px;
+            }
+            @media (max-width: 991px) {
+              font-size: 34px;
+            }
+          }
+          p {
+            color: #000;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            @media (max-width: 1199px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .visionPart {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      padding: 40px 0px;
+    }
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      padding: 30px 0px;
+    }
+    @media (max-width: 567px) {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      padding: 0px 0px;
+    }
+    .visionleft {
+      width: 43%;
+      margin-right: 25px;
+      @media (max-width: 991px) {
+        display: flex;
+        align-items: center;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+
+      .greenback {
+        background: #4dba4d;
+        width: 100%;
+        height: 410px;
+        position: relative;
+        @media (max-width: 1399px) {
+          height: 400px;
+        }
+        @media (max-width: 1199px) {
+          height: 340px;
+        }
+        @media (max-width: 991px) {
+          height: 260px;
+        }
+        @media (max-width: 767px) {
+          height: 400px;
+        }
+        @media (max-width: 481px) {
+          height: 296px;
+          width: 99%;
+        }
+        @media (max-width: 375px) {
+          height: 260px;
+        }
+        @media (max-width: 320px) {
+          height: 225px;
+        }
+
+        img {
+          position: absolute;
+          top: 25px;
+          left: 25px;
+          width: 100%;
+          height: auto;
+          @media (max-width: 991px) {
+            top: 20px;
+            left: 15px;
+          }
+        }
+      }
+    }
+    .visionRight {
+      width: 53%;
+      padding: 30px 0px;
+      @media (max-width: 991px) {
+        padding: 10px 30px;
+      }
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0px;
+      }
+      @media (max-width: 567px) {
+        padding: 10px 30px;
+      }
+
+      h5 {
+        color: #4dba4d;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      h4 {
+        color: #000;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        @media (max-width: 991px) {
+          font-size: 24px;
+        }
+      }
+      p {
+        color: #323232;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.28px;
+        @media (max-width: 991px) {
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+      .tick_para {
+        display: flex;
+        p {
+          color: #323232;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 25px;
+          letter-spacing: 0.28px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .team {
+    padding: 40px 0px;
+    @media (max-width: 567px) {
+      padding: 0px 0px;
+    }
+    h2 {
+      color: #000;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 20px 0px;
+      @media (max-width: 481px) {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 15px;
+      }
+    }
+    .team_cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 34px;
+      @media (max-width: 1399px) {
+        gap: 29px;
+      }
+      @media (max-width: 1199px) {
+        gap: 24px;
+      }
+      @media (max-width: 991px) {
+        gap: 18px;
+      }
+      @media (max-width: 767px) {
+        gap: 12px;
+      }
+      @media (max-width: 481px) {
+        gap: 11px;
+      }
+    }
+  }
+  .newsLetter {
+    background: rgba(77, 186, 77, 0.07);
+    padding: 60px 0px;
+    @media (max-width: 567px) {
+      padding: 30px 0px;
+    }
+    .newsLetter_div {
+      display: flex;
+      @media (max-width: 767px) {
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .newsHead {
+        width: 50%;
+        @media (max-width: 767px) {
+          width: 100%;
+          text-align: center;
+        }
+        h4 {
+          color: #000;
+          font-size: 23px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: capitalize;
+          margin-bottom: 20px;
+        }
+        p {
+          color: #323232;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+      }
+      .newsSearch {
+        width: 50%;
+        position: relative;
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+        input {
+          border-radius: 6px;
+          background: #fff;
+          border: none;
+          padding: 18px;
+          width: 100%;
+          @media (max-width: 567px) {
+            padding: 16px;
+          }
+        }
+        .error {
+          color: red;
+        }
+        button {
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          padding: 17px 40px;
+          border-radius: 0px 6px 6px 0px;
+          background: #4dba4d;
+          border: none;
+          @media (max-width: 567px) {
+            padding: 16px 40px;
+          }
+        }
+      }
+    }
+  }
+}
+.teamCard_wrapper {
+  width: 23%;
+  @media (max-width: 481px) {
+    width: 48%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h6 {
+    color: #4dba4d;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0px;
+    margin: 0px;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+    @media (max-width: 767px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.visionPart {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 991px) {
+    padding: 40px 0px;
+  }
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px 0px;
+  }
+  @media (max-width: 567px) {
+    // padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px 0 30px 0;
+  }
+
+  .visionleft {
+    width: 43%;
+    margin-right: 25px;
+    @media (max-width: 991px) {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+
+    .greenback {
+      background: #4dba4d;
+      width: 100%;
+      height: 410px;
+      position: relative;
+      @media (max-width: 1399px) {
+        height: 400px;
+      }
+      @media (max-width: 1199px) {
+        height: 340px;
+      }
+      @media (max-width: 991px) {
+        height: 260px;
+      }
+      @media (max-width: 767px) {
+        height: 400px;
+      }
+      @media (max-width: 567px) {
+        height: 368px;
+      }
+      @media (max-width: 567px) {
+        height: 335px;
+      }
+      @media (max-width: 481px) {
+        height: 300px;
+      }
+      @media (max-width: 375px) {
+        height: 266px;
+      }
+      @media (max-width: 320px) {
+        height: 225px;
+      }
+      img {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        width: 100%;
+        height: auto;
+        @media (max-width: 991px) {
+          top: 20px;
+          left: 20px;
+        }
+      }
+    }
+  }
+  .visionRight {
+    width: 53%;
+    padding: 30px 0px;
+    @media (max-width: 991px) {
+      padding: 10px 30px;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+      padding: 0px;
+    }
+
+    h5 {
+      color: #4dba4d;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    h4 {
+      color: #000;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      @media (max-width: 991px) {
+        font-size: 24px;
+      }
+    }
+    p {
+      color: #323232;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.28px;
+      @media (max-width: 991px) {
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+    .learnMore {
+      button {
+        border-radius: 0px 2px 2px 0px;
+        background: #4dba4d;
+        color: var(--white, #fff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        padding: 15px;
+      }
+    }
+    .tick_para {
+      display: flex;
+      p {
+        color: #323232;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.28px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

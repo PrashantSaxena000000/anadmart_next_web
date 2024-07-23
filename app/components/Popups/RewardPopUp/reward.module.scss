@@ -1,0 +1,96 @@
+.login-popup-modal {
+  padding: 0 !important;
+  max-width: 100% !important;
+
+  .inner_container_logins {
+    width: 735px;
+
+    @media (max-width: 576px) {
+      width: 350px;
+    }
+    @media (max-width: 375px) {
+      width: 280px;
+    }
+    .title-text {
+      color: #014e70;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      padding: 20px;
+      position: relative;
+      .left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h6 {
+          color: #3c4242;
+          text-align: center;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 57.5px;
+          letter-spacing: 0.9px;
+        }
+        p {
+          color: #000;
+          text-align: center;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 32px;
+        }
+        .dasheddiv {
+          border-radius: 20px;
+          border: 2px dashed #4dba4d;
+          background: rgba(77, 186, 77, 0.1);
+          display: flex;
+          gap: 10px;
+          padding: 20px;
+          .leftSectio {
+            h5 {
+              color: #000;
+              text-align: center;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 32px;
+            }
+          }
+          .greenSpan {
+            height: 40px;
+            width: 5px;
+            background-color: #4dba4d;
+          }
+          .rightSectio {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+          }
+        }
+        button {
+          border-radius: 6px;
+          background: #4dba4d;
+          color: #fff;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          border: none;
+          width: 100%;
+          margin-top: 15px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

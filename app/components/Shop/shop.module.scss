@@ -1,0 +1,1270 @@
+.shopHeaderWrapper {
+  background: #fff;
+  box-shadow: 0px 17px 28px 0px rgba(184, 184, 184, 0.17);
+  .mainHead {
+    @media (max-width: 1199px) {
+      display: none;
+    }
+    .moreCategoryDiv {
+      position: relative;
+      ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        flex-wrap: wrap;
+        @media (max-width: 1199px) {
+          flex-wrap: wrap;
+          justify-content: unset;
+        }
+        li {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+          @media (max-width: 1399px) {
+            padding: 0px 3px;
+            font-size: 15px;
+          }
+        }
+        .moreList {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+          @media (max-width: 1399px) {
+            padding: 0px 3px;
+            font-size: 15px;
+          }
+        }
+        .moreListActive {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+      }
+      .moreDataDiv {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        max-height: calc(100vh - 163px);
+        overflow: scroll;
+        position: absolute;
+        right: 0;
+        width: 230px;
+        z-index: 900;
+        top: 50px;
+        .para_of_shopmore {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin: 0px;
+          padding: 14px 16px;
+          list-style: none;
+          cursor: pointer;
+          &:hover {
+            background-color: #f7f7f7;
+          }
+        }
+      }
+    }
+    .moreCategoryDiv2 {
+      display: none;
+      @media (max-width: 1199px) {
+        display: block;
+        position: relative;
+      }
+      @media (max-width: 991px) {
+        display: none;
+      }
+      ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+
+        li {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+        }
+        .moreList {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+        }
+        .moreListActive {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+      }
+      .moreDataDiv {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        max-height: calc(100vh - 163px);
+        overflow: scroll;
+        position: absolute;
+        right: 0;
+        width: 230px;
+        z-index: 900;
+        top: 50px;
+        .para_of_shopmore {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin: 0px;
+          padding: 14px 16px;
+          cursor: pointer;
+          &:hover {
+            background-color: #f7f7f7;
+          }
+        }
+      }
+    }
+    .moreCategoryDiv3 {
+      display: none;
+
+      @media (max-width: 991px) {
+        display: block;
+      }
+      ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+
+        li {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        .moreList {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+        .moreListActive {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+      }
+      .moreDataDiv2 {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        max-height: calc(100vh - 163px);
+        overflow: scroll;
+        position: absolute;
+        right: 0;
+        width: 230px;
+        z-index: 900;
+        top: 50px;
+        .para_of_shopmore {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin: 0px;
+          padding: 14px 16px;
+          cursor: pointer;
+          &:hover {
+            background-color: #f7f7f7;
+          }
+        }
+      }
+    }
+  }
+  .mainHead3 {
+    display: none;
+    @media (max-width: 1199px) {
+      display: block;
+    }
+    @media (max-width: 991px) {
+      display: none;
+    }
+    .moreCategoryDiv2 {
+      position: relative;
+
+      ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+
+        li {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+        }
+        .moreList {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+        }
+        .moreListActive {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+      }
+      .moreDataDiv {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        max-height: calc(100vh - 163px);
+        overflow: scroll;
+        position: absolute;
+        right: 0;
+        width: 230px;
+        z-index: 900;
+        top: 50px;
+        .para_of_shopmore {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin: 0px;
+          padding: 14px 16px;
+          cursor: pointer;
+          &:hover {
+            background-color: #f7f7f7;
+          }
+        }
+      }
+    }
+  }
+  .mainHead2 {
+    background-color: #f7f7f7;
+
+    .moreCategoryDiv4 {
+      display: none;
+      @media (max-width: 991px) {
+        display: block;
+        position: relative;
+      }
+      ul {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+
+        li {
+          color: #000;
+          cursor: pointer;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          padding: 0px 5px;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .moreList {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+        .moreListActive {
+          color: #000;
+          cursor: pointer;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          text-transform: capitalize;
+          background-color: #f7f7f7;
+          padding: 0px 5px;
+        }
+      }
+      .moreDataDiv2 {
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        max-height: calc(100vh - 163px);
+        overflow: scroll;
+        position: absolute;
+        right: 0;
+        width: 300px;
+        z-index: 900;
+        top: 50px;
+        @media (max-width: 991px) {
+          width: 100%;
+        }
+        .para_of_shopmore {
+          color: #000;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+          margin: 0px;
+          padding: 14px 16px;
+          cursor: pointer;
+          &:hover {
+            background-color: #f7f7f7;
+          }
+        }
+      }
+    }
+  }
+}
+.leftSectionWrapper {
+  .leftdiv {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    background: #fff;
+    width: 100%;
+    @media (max-width: 767px) {
+      border: none;
+      margin-bottom: 5px;
+    }
+    .greenDiv {
+      width: 7px;
+      background: #fff;
+      padding: 41px 0px;
+    }
+    .mainDiv_of_left {
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      width: 100%;
+      @media (max-width: 1199px) {
+        flex-direction: column;
+        padding: 8px;
+      }
+      cursor: pointer;
+      .imgDiv {
+        border-radius: 10px;
+        background: rgba(231, 231, 231, 0.45);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .imgDivImg {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .text_div {
+        width: 75%;
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+        h6 {
+          color: #000;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 26px;
+          text-transform: capitalize;
+          margin: 0;
+          padding-left: 15px;
+          @media (max-width: 1199px) {
+            padding-left: 0px;
+            font-size: 14px;
+            text-align: center;
+          }
+          @media (max-width: 767px) {
+            line-height: 20px;
+          }
+          @media (max-width: 576px) {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  .leftdivactive {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    background: #ebffef;
+    width: 100%;
+    @media (max-width: 767px) {
+      border: none;
+      margin-bottom: 5px;
+    }
+    .greenDiv {
+      width: 7px;
+      background: #4dba4d;
+      padding: 41px 0px;
+    }
+    .mainDiv_of_left {
+      display: flex;
+      align-items: center;
+      padding: 15px 20px;
+      width: 100%;
+      cursor: pointer;
+      @media (max-width: 1199px) {
+        flex-direction: column;
+        padding: 8px;
+      }
+      .imgDiv {
+        border-radius: 10px;
+        background: #fff;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .imgDivImg {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .text_div {
+        width: 75%;
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+        h6 {
+          color: #000;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 26px;
+          text-transform: capitalize;
+          margin: 0;
+          padding-left: 15px;
+          @media (max-width: 1199px) {
+            padding-left: 0px;
+            font-size: 14px;
+            text-align: center;
+          }
+          @media (max-width: 1199px) {
+            line-height: 20px;
+          }
+          @media (max-width: 576px) {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main_div_of_Shop {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  .left_side {
+    width: 20%;
+    @media (max-width: 1199px) {
+      width: 19%;
+    }
+    @media (max-width: 991px) {
+      width: 15%;
+    }
+    @media (max-width: 767px) {
+      width: 20%;
+    }
+    @media (max-width: 576px) {
+      width: 25%;
+    }
+  }
+  .right_side {
+    width: 77%;
+    @media (max-width: 1199px) {
+      width: 79%;
+    }
+    @media (max-width: 991px) {
+      width: 82%;
+    }
+    @media (max-width: 767px) {
+      width: 80%;
+      padding-left: 10px;
+    }
+
+    .no_product_available {
+      text-align: center;
+      padding: 100px 0;
+      font-size: 20px;
+      font-weight: 600;
+      color: #000;
+    }
+    .headSction {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      @media (max-width: 991px) {
+        display: none;
+      }
+      .heading {
+        width: 45%;
+        h4 {
+          color: #000;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 26px;
+          text-transform: capitalize;
+          margin: 0;
+        }
+      }
+      .filter {
+        display: flex;
+        width: 55%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+
+        h6 {
+          color: #000;
+          margin: 0px;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        select {
+          border-radius: 6px;
+          border: 1px solid #dcdcdc;
+          background: #fff;
+          outline: none;
+          padding: 10px;
+          font-size: 1.15rem;
+          padding: 0.675em 6em 0.675em 1em;
+          background-color: #fff;
+          border: 1px solid #caced1;
+          border-radius: 0.25rem;
+          color: #000;
+          cursor: pointer;
+          :hover {
+            color: green;
+          }
+
+          option {
+            color: #7b7575;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px; /* 150% */
+            text-transform: capitalize;
+            outline: none;
+            display: grid;
+          }
+        }
+      }
+    }
+  }
+}
+
+.CardScn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  row-gap: 40px;
+  margin-top: 30px;
+  @media (max-width: 1199px) {
+    gap: 9px;
+  }
+  @media (max-width: 991px) {
+    gap: unset;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  @media (max-width: 576px) {
+    // flex-wrap: nowrap;
+    margin-left: 21px;
+    overflow-x: auto;
+    column-gap: 10px;
+  }
+  @media (max-width: 481px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div_of_card {
+    width: 22%;
+    display: flex !important;
+    flex-direction: column;
+    row-gap: 5px;
+    @media (max-width: 1199px) {
+      width: 24%;
+    }
+    @media (max-width: 991px) {
+      width: 49%;
+      padding: 3px;
+    }
+    @media (max-width: 576px) {
+      width: 95%;
+    }
+    @media (max-width: 767px) {
+      box-shadow: 0px 0px 8px 0.8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .card_main_div {
+      background: #f6f6f6 !important;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100% !important;
+      height: 250px;
+      position: relative;
+      @media (max-width: 991px) {
+        height: 180px;
+      }
+      @media (max-width: 767px) {
+        padding: 10px;
+      }
+      .discount_bar {
+        button {
+          position: absolute;
+          top: 8px;
+          left: 4px;
+          background-color: #4dba4d;
+          border: 0;
+          border-radius: 4px;
+          color: #fff;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 10px;
+          text-align: left;
+          padding: 8px;
+          cursor: default;
+        }
+      }
+      .carddiv {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: 991px) {
+          width: unset;
+          height: unset;
+        }
+        img {
+          // background: lightgray -56.209px -17.513px / 198.81% 118.135% no-repeat;
+          mix-blend-mode: darken;
+          width: auto;
+          height: auto;
+          max-width: 150px;
+          max-height: 150px;
+          @media (max-width: 576px) {
+            width: 80px !important;
+            height: 80px !important;
+          }
+        }
+      }
+      .discount_tag {
+        button {
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          background-color: #4dba4d;
+          border: 0;
+          border-radius: 4px;
+          color: #fff;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 10px;
+          text-align: left;
+          padding: 8px;
+          cursor: default;
+        }
+      }
+      .wishlistIcon {
+        background-color: #fff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 15px;
+        cursor: pointer;
+        @media (max-width: 767px) {
+          top: 5px;
+          right: 5px;
+        }
+      }
+    }
+    .sizeAndCart {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 5px 0px;
+      @media (max-width: 767px) {
+        justify-content: flex-end;
+      }
+      p {
+        color: #434343;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 0;
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+      .addcQtydiv {
+        border-radius: 4px;
+        background: #4dba4d;
+        color: #fff;
+        button {
+          padding: 2px 12px;
+          background: transparent;
+          border: none;
+          color: #fff;
+        }
+      }
+      .addbtndiv {
+        width: 100%;
+        .notAvil {
+          color: red;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          margin: 15px 0;
+        }
+        button {
+          border-radius: 4px;
+          background: #4dba4d;
+          color: #fff;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 9px;
+          text-transform: capitalize;
+          border: none;
+          padding: 10px 25px;
+          width: 100%;
+          @media (max-width: 767px) {
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+    h6 {
+      color: #000;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      margin: 0;
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      height: 35px;
+    }
+    .priceAddQunty {
+      display: grid;
+      align-items: flex-end;
+      .priceAndAdd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          border: none;
+          outline: none;
+          margin-bottom: 5px;
+          font-weight: 600;
+
+          margin: 0px;
+          font-size: 14px;
+          span {
+            margin-left: 25px;
+          }
+        }
+      }
+      .onlyQuantity {
+        display: grid;
+        align-items: center;
+        p {
+          border: none;
+          outline: none;
+          margin-bottom: 5px;
+          font-weight: 600;
+          width: 50%;
+          margin: 0px;
+          font-size: 14px;
+          span {
+            margin-left: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mainone {
+  width: 679px;
+  padding: 33px;
+  @media (max-width: 991px) {
+    width: 600px;
+    padding: 30px;
+  }
+  @media (max-width: 767px) {
+    width: 500px;
+    padding: 20px;
+  }
+  @media (max-width: 530px) {
+    width: 450px;
+  }
+  @media (max-width: 475px) {
+    width: 350px;
+    padding: 10px;
+  }
+  @media (max-width: 375px) {
+    width: 290px;
+  }
+  h4 {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+    @media (max-width: 475px) {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+  }
+  .products {
+    border-radius: 10px;
+    background: #f5f6fb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    @media (max-width: 767px) {
+      padding: 10px;
+    }
+    .discount_div {
+      width: 10%;
+      position: relative;
+      button {
+        position: absolute;
+        top: -16px;
+        left: -13px;
+        background-color: #4dba4d;
+        border: 0;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: left;
+        padding: 6px;
+        cursor: default;
+        @media (max-width: 481px) {
+          font-size: 8px;
+          padding: 3px;
+        }
+      }
+      img {
+        // background: lightgray -56.209px -17.513px/198.81% 118.135% no-repeat;
+        mix-blend-mode: darken;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    h6 {
+      color: #8e8484;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+      @media (max-width: 475px) {
+        font-size: 16px;
+      }
+    }
+    p {
+      color: #000;
+      font-family: Quicksand;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+      @media (max-width: 475px) {
+        font-size: 16px;
+      }
+      del {
+        color: #8e8484;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+        @media (max-width: 475px) {
+          font-size: 16px;
+        }
+      }
+    }
+    .product_qty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      @media (max-width: 375px) {
+        gap: 10px;
+      }
+      button {
+        border: 1px solid #4dba4d;
+        background-color: transparent;
+        color: #4dba4d;
+        width: 40px;
+        height: 40px;
+        border-radius: 32px;
+        font-size: 18px;
+        @media (max-width: 767px) {
+          width: 30px;
+          height: 30px;
+        }
+        @media (max-width: 475px) {
+          width: 20px;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        &:hover {
+          color: #fff;
+          background-color: #4dba4d;
+        }
+      }
+      span {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        text-transform: capitalize;
+      }
+    }
+    .addbtns {
+      border-radius: 3px;
+      background: #4dba4d;
+      border: none;
+      padding: 15px 40px;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.16px;
+      @media (max-width: 475px) {
+        padding: 10px 15px;
+      }
+    }
+  }
+}
+
+.drawerMainDiv {
+  .drawerMain {
+    .mainone {
+      width: 679px;
+      padding: 33px;
+      @media (max-width: 991px) {
+        width: 600px;
+        padding: 30px;
+      }
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 5px;
+      }
+
+      h4 {
+        color: #000;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 35px;
+        @media (max-width: 767px) {
+          font-size: 22px;
+        }
+        @media (max-width: 475px) {
+          font-size: 18px;
+          margin-bottom: 25px;
+        }
+      }
+      .productMainDiv {
+        // height: 300px;
+        // overflow-y: scroll;
+
+        .products {
+          border-radius: 10px;
+          background: #f5f6fb;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+          margin-bottom: 20px;
+          @media (max-width: 767px) {
+            padding: 10px;
+          }
+          .discount_div {
+            position: relative;
+            width: 20%;
+            button {
+              position: absolute;
+              top: -16px;
+              left: -13px;
+              background-color: #4dba4d;
+              border: 0;
+              border-radius: 4px;
+              color: #fff;
+              font-size: 10px;
+              font-weight: 600;
+              line-height: 10px;
+              text-align: left;
+              padding: 3px;
+              cursor: default;
+            }
+            img {
+              // background: lightgray -56.209px -17.513px/198.81% 118.135% no-repeat;
+              mix-blend-mode: darken;
+              height: auto;
+              width: 80px;
+            }
+          }
+
+          h6 {
+            color: #8e8484;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            @media (max-width: 767px) {
+              font-size: 18px;
+            }
+            @media (max-width: 475px) {
+              font-size: 16px;
+            }
+          }
+          p {
+            color: #000;
+            font-family: Quicksand;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 0;
+            @media (max-width: 767px) {
+              font-size: 18px;
+            }
+            @media (max-width: 475px) {
+              font-size: 16px;
+            }
+            del {
+              color: #8e8484;
+              font-size: 22px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              @media (max-width: 767px) {
+                font-size: 18px;
+              }
+              @media (max-width: 475px) {
+                font-size: 16px;
+              }
+            }
+          }
+          .product_qty {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+
+            button {
+              border: 1px solid #4dba4d;
+              background-color: transparent;
+              color: #4dba4d;
+              width: 40px;
+              height: 40px;
+              border-radius: 32px;
+              font-size: 18px;
+              @media (max-width: 767px) {
+                width: 30px;
+                height: 30px;
+              }
+              @media (max-width: 475px) {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+
+              &:hover {
+                color: #fff;
+                background-color: #4dba4d;
+              }
+            }
+            span {
+              color: #000;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 32px;
+              text-transform: capitalize;
+            }
+          }
+          .addbtns {
+            border-radius: 3px;
+            background: #4dba4d;
+            border: none;
+            padding: 15px 40px;
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.16px;
+            @media (max-width: 475px) {
+              padding: 10px 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

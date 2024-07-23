@@ -1,0 +1,429 @@
+.info_wrapper {
+  .company_info {
+    .profileHead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        color: #3c4242;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 33.5px;
+        letter-spacing: 0.46px;
+        width: 75%;
+      }
+      .profileMainDiv {
+        width: 25%;
+        .profilediv {
+          position: relative;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          border: 1px solid #4dba4d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          span {
+            position: absolute;
+            right: -10px;
+            bottom: -5px;
+          }
+        }
+      }
+    }
+    .label_div {
+      border-bottom: 1px solid #edeef2;
+      padding-top: 25px;
+      label {
+        color: #646464;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        opacity: 0.7;
+        margin-bottom: 5px;
+      }
+      .field_div {
+        display: flex;
+
+        input {
+          border-radius: 6px;
+          border: none;
+          background: transparent;
+          width: 100%;
+          color: #3c4242;
+          padding-bottom: 10px;
+          outline: none;
+          &::placeholder {
+            color: #3c4242;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.24px;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+        h4 {
+          color: #4dba4d;
+          font-family: Quicksand;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          cursor: pointer;
+        }
+      }
+    }
+    .member_div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 30px 0px;
+      h3 {
+        color: #000;
+        margin: 0;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.3px;
+      }
+      button {
+        color: #4dba4d;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        background: none;
+        border: none;
+      }
+    }
+
+    .addrsscard {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      @media (max-width: 1199px) {
+        gap: 25px;
+      }
+    }
+    .dataSaveBtn {
+      padding: 12px 30px;
+      color: white;
+      background-color: #4dba4d;
+      border: none;
+      margin-top: 20px;
+    }
+    .dataSaveBtn2 {
+      padding: 12px 30px;
+      color: #807d7e;
+      font-weight: 700;
+      background-color: #f6f6f6;
+      border: none;
+      margin-top: 20px;
+    }
+  }
+}
+
+.myinfoAddAddress_wrapper {
+  .company_info {
+    .check_row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 30px;
+      @media (max-width: 1023px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      @media (max-width: 767px) {
+        margin-left: 0;
+      }
+      .check_col_1 {
+        width: 100%;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05),
+          -2px -2px 4px 0px rgba(0, 0, 0, 0.05);
+        @media (max-width: 1023px) {
+          width: 100%;
+        }
+        h4 {
+          color: #3c4242;
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 33.5px;
+          letter-spacing: 0.44px;
+          margin-bottom: 10px;
+        }
+        form {
+          .short_input_div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            @media (max-width: 481px) {
+              flex-direction: column;
+              gap: 10px;
+            }
+            .label_div {
+              display: flex;
+              flex-direction: column;
+              position: relative;
+              width: 100%;
+              .locationnInput {
+                &:focus {
+                  box-shadow: none !important;
+                }
+              }
+              label {
+                color: #3c4242;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.28px;
+                margin-bottom: 10px;
+                @media (max-width: 481px) {
+                  font-size: 12px;
+                }
+              }
+              input {
+                border-radius: 10px;
+                border: 1px solid #ececec;
+                background: #f6f6f6;
+                color: #3c4242;
+                padding: 12px;
+                outline: none;
+                &::placeholder {
+                  color: #3c4242;
+                  font-size: 12px;
+                  font-weight: 300;
+                  line-height: normal;
+                  letter-spacing: 0.24px;
+                }
+              }
+              span {
+                position: absolute;
+                right: 20px;
+                bottom: 15px;
+              }
+            }
+          }
+
+          .btnDivs {
+            display: flex;
+            align-items: center;
+            .saveAddressBtbn {
+              border-radius: 0px 2px 2px 0px;
+              background: #4dba4d;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              color: #fff;
+              border: none;
+              padding: 10px 15px;
+            }
+            .saveAddressBtbn2 {
+              color: #807d7e;
+              text-align: center;
+              font-size: 20.087px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              border-radius: 8px;
+              background: #f6f6f6;
+              border: none;
+              padding: 10px 15px;
+              margin-left: 30px;
+              width: 10%;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal_wrapper2 {
+  border-radius: 6px !important;
+  background: #fff !important;
+  h2 {
+    color: #3c4242;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.36px;
+  }
+  .lab_name_div {
+    display: flex;
+    margin-bottom: 20px;
+    @media (max-width: 481px) {
+      flex-direction: column;
+    }
+    .lab_name {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      @media (max-width: 481px) {
+        width: 100%;
+      }
+      label {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0.28px;
+        text-transform: capitalize;
+        margin: 15px 0px;
+      }
+      input {
+        border-radius: 6px;
+        border: 1px solid #ececec;
+        background: #f6f6f6;
+        padding: 10px;
+        width: 90%;
+        outline: none;
+        &::placeholder {
+          color: #3c4242;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.24px;
+        }
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .btn_div_modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    width: 100%;
+    button {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+
+.lightevents_wrapper {
+  .company_info {
+    h4 {
+      color: #1a1a1a;
+    }
+    .label_div {
+      border-bottom: 1px solid rgba(195, 195, 195, 0.3);
+      label {
+        color: #1a1a1a;
+      }
+      .field_div {
+        input {
+          color: #1a1a1a;
+          &::placeholder {
+            color: #1a1a1a;
+          }
+        }
+        h4 {
+          color: #1da1f2;
+          &:hover {
+            color: #1da1f2;
+          }
+        }
+      }
+    }
+    .member_div {
+      h3 {
+        color: #1a1a1a;
+      }
+      Button {
+        color: #1da1f2;
+      }
+    }
+  }
+}
+.lightevents_wrapper1 {
+  .company_info {
+    h4 {
+      color: #1a1a1a;
+    }
+    .member_form1 {
+      .label_divs {
+        label {
+          color: #1a1a1a;
+        }
+        .inputmember {
+          border-radius: 10px;
+          border: 1px solid #fff;
+          background: #fff;
+          color: #1a1a1a;
+          &::placeholder {
+            color: #1a1a1a;
+          }
+        }
+      }
+    }
+    .member_form1_textarea {
+      .label_divs_textarea {
+        label {
+          color: #1a1a1a;
+        }
+        textarea {
+          border-radius: 10px;
+          border: 1px solid #fff;
+          background: #fff;
+          color: #1a1a1a;
+          &::placeholder {
+            color: #1a1a1a;
+          }
+        }
+      }
+    }
+    .checkbpx_wrapper_div {
+      .checkbox_wrapper {
+        .custom_checkbox + label:before {
+          color: #1da1f2;
+          border: 3px solid #1da1f2;
+          background-color: transparent;
+        }
+        .custom_checkbox:checked + label:before {
+          content: "\2713";
+          color: #1da1f2;
+        }
+        .custom-checkbox:checked + label {
+          color: #1da1f2;
+        }
+        label {
+          color: #1a1a1a;
+        }
+      }
+    }
+    .savebtn_div {
+      .savebtn1 {
+        color: #fff;
+        background: #1da1f2;
+      }
+      .savebtn2 {
+        color: #1da1f2;
+        border: 1px solid #1da1f2;
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+.mobile_wrapper {
+  display: none !important;
+  position: fixed;
+  top: 0;
+  right: -480px;
+  transition: all 0.5s ease;
+  width: 400px;
+  height: 100%;
+  z-index: 22;
+  background: #fff;
+  @media (max-width: 1023px) {
+    display: block !important;
+  }
+  @media (max-width: 481px) {
+    width: 100%;
+  }
+
+  padding: 40px;
+  .logo_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 30px 0 0px 0;
+    margin: 0;
+    li {
+      margin: 20px 0px;
+
+      a {
+        color: #fff;
+        font-size: 16px;
+
+        font-weight: 600;
+        line-height: 31px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+  .searchDiv {
+    position: relative;
+    width: 96%;
+    margin-top: 14px;
+    .search_select {
+      border-radius: 4px;
+      border: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: normal;
+      padding: 5px;
+      width: 100%;
+      border-radius: 6px;
+      background: #f4f4f4;
+      &::placeholder {
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+    .search_btn {
+      border-radius: 0px 5px 5px 0px;
+      background: #4dba4d;
+      position: absolute;
+      right: -20px;
+      top: 1px;
+      padding: 10px 20px;
+      border: none;
+      @media (max-width: 991px) {
+        right: -20px;
+        top: 1px;
+      }
+    }
+  }
+  display: flex;
+  .header_icons {
+    align-items: center;
+    margin-top: 30px;
+    .wishlist_number {
+      position: relative;
+      .wishlist_counter {
+        position: absolute;
+        top: -6px;
+        right: -1px;
+        width: 23px;
+        height: 22px;
+        color: white;
+        background-color: #4dba4d;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 71px;
+          text-transform: capitalize;
+        }
+      }
+    }
+    svg {
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+    .cart_div {
+      position: relative;
+
+      .cart_counter {
+        position: absolute;
+        top: -6px;
+        right: -1px;
+        width: 23px;
+        height: 22px;
+        color: white;
+        background-color: #4dba4d;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 71px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+
+.active_navbar {
+  position: fixed;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  right: 0;
+  transition: all 0.5s ease;
+  background: #fff;
+
+  padding: 40px;
+  z-index: 30;
+  @media (max-width: 481px) {
+    width: 100%;
+  }
+  .logo_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0px;
+    margin: 0;
+    li {
+      margin: 20px 0px;
+      .active_menu {
+        color: #000;
+        font-weight: 600;
+      }
+      a {
+        color: #000;
+        font-size: 16px;
+
+        font-weight: 600;
+        line-height: 31px;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+  .header_icons {
+    display: flex;
+    align-items: center;
+    svg {
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+    .cart_items {
+      position: relative;
+
+      .cart_points {
+        width: 25px;
+        height: 25px;
+        color: white;
+        background-color: #14e3e9;
+        position: absolute;
+        top: -10px;
+        right: -5px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          color: #fff;
+          font-family: Syne;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  .catDetails {
+    width: 80%;
+    .catDetailsUL {
+      padding: 0;
+      margin-bottom: 20px;
+      .catDetailsLI {
+        margin: 10px 0px 0px 15px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

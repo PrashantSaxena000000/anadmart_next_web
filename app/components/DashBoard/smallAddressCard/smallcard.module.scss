@@ -1,0 +1,95 @@
+.smallcard_wrapper {
+  border-radius: 12px;
+  background: #f6f6f6;
+  padding: 25px 36px;
+  width: 48%;
+  height: auto;
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  h4 {
+    color: #3c4242;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  h6 {
+    color: #3c4242;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  p {
+    color: #3c4242;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 168.125%; /* 25.219px */
+    text-transform: capitalize;
+  }
+  .smallcard_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    @media (max-width: 481px) {
+      // flex-direction: column;
+      align-items: flex-start;
+    }
+    span {
+      border-radius: 8px;
+      border: 1px solid #807d7e;
+      color: #3c4242;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: normal;
+      background: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      @media (max-width: 1199px) {
+        padding: 10px 10px;
+      }
+    }
+    .spanDefault {
+      border-radius: 8px;
+      border: 1px solid #807d7e;
+      color: #3c4242;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+      background: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      @media (max-width: 1199px) {
+        padding: 10px 10px;
+      }
+    }
+    .spanDefaultActive {
+      border-radius: 8px;
+      border: 1px solid #807d7e;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+
+      font-weight: 400;
+      line-height: normal;
+      background: none;
+      padding: 10px 20px;
+      background-color: #4dba4d;
+      @media (max-width: 1199px) {
+        padding: 10px 10px;
+      }
+    }
+  }
+  .smallcardparadiv {
+    display: flex;
+    gap: 10px;
+    .smallcardpara1 {
+      color: #3c4242;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: normal;
+      cursor: pointer;
+    }
+  }
+}

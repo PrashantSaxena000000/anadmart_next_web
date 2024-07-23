@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.hotDeals_wrapper {
+  h2 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .hotdeal_main_div {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+    .leftCard {
+      display: flex;
+      width: 49%;
+      @media (max-width: 991px) {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 481px) {
+        flex-direction: column;
+      }
+      .left_im_div {
+        width: 50%;
+        border-radius: 4px;
+        background-color: #f6f6f6;
+        @media (max-width: 481px) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        img {
+          background: lightgray / cover no-repeat;
+          mix-blend-mode: darken;
+        }
+      }
+      .left_rt_div {
+        padding: 20px;
+        width: 50%;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        h4 {
+          color: #000;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: capitalize;
+          margin-top: 10px;
+        }
+        h6 {
+          color: #000;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: capitalize;
+          span {
+            color: #434343;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            text-decoration: line-through;
+          }
+        }
+        p {
+          color: #434343;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          font-family: "Poppins";
+
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        .allCircle {
+          display: flex;
+          gap: 15px;
+          .Circle_main_div {
+            width: fit-content;
+            text-align: center;
+
+            .Circlediv {
+              width: 45px;
+              height: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #f3f3f3;
+              border-radius: 50%;
+              color: #ec2e41;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: capitalize;
+            }
+            p {
+              color: #434343;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-transform: capitalize;
+              font-family: "Poppins";
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+    .rightCard {
+      display: flex;
+      width: 49%;
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+      @media (max-width: 481px) {
+        flex-direction: column;
+      }
+      .left_im_div {
+        width: 50%;
+        border-radius: 4px;
+        background-color: #f6f6f6;
+        @media (max-width: 481px) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        img {
+          background: lightgray / cover no-repeat;
+          mix-blend-mode: darken;
+        }
+      }
+      .left_rt_div {
+        padding: 20px;
+        width: 50%;
+        @media (max-width: 481px) {
+          width: 100%;
+        }
+        h4 {
+          color: #000;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: capitalize;
+          margin-top: 10px;
+        }
+        h6 {
+          color: #000;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: capitalize;
+          span {
+            color: #434343;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            text-decoration: line-through;
+          }
+        }
+        p {
+          color: #434343;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          font-family: "Poppins";
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        .allCircle {
+          display: flex;
+          gap: 15px;
+          .Circle_main_div {
+            width: fit-content;
+            text-align: center;
+
+            .Circlediv {
+              width: 45px;
+              height: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #f3f3f3;
+              border-radius: 50%;
+              color: #ec2e41;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: capitalize;
+            }
+            p {
+              color: #434343;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-transform: capitalize;
+              font-family: "Poppins";
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

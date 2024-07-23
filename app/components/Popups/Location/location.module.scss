@@ -1,0 +1,28 @@
+.react-responsive-modal-modal {
+  padding: 0;
+  border-radius: 10px !important;
+  background: #fff !important;
+  overflow-y: unset !important;
+  overflow-x: unset !important;
+  .react-responsive-modal-closeButton {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    right: 15px;
+
+    svg {
+      fill: #000;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.location-popup-modal {
+  padding: 0 !important;
+  max-width: 100% !important;
+}

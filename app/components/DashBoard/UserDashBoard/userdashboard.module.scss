@@ -1,0 +1,44 @@
+.user_dashboard_wrap {
+  background-color: #fff;
+  @media (max-width: 991px) {
+    padding-top: 50px;
+  }
+
+  .dashboard_section {
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      flex-direction: column;
+      row-gap: 30px;
+      align-items: center;
+    }
+
+    @media (max-width: 1023px) {
+      padding: 0px 0px 70px 0px;
+    }
+
+    .section_left {
+      width: 22%;
+      @media (max-width: 1199px) {
+        width: 25%;
+      }
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+    .section_right {
+      width: 73%;
+      @media (max-width: 1199px) {
+        width: 71%;
+      }
+      @media (max-width: 991px) {
+        width: 97%;
+      }
+    }
+  }
+}
+
+.lightevents__wrapper {
+  background: #f9f9f9;
+}

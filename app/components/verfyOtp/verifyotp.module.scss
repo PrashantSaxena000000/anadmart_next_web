@@ -1,0 +1,98 @@
+.verify_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+  background: #f6f6f6;
+
+  .main_div {
+    width: 35%;
+    background: #fff;
+    padding: 30px 30px;
+    @media (max-width: 1023px) {
+      width: 70%;
+    }
+    @media (max-width: 481px) {
+      width: 90%;
+    }
+    h4 {
+      text-align: center;
+      margin: 30px 0px 50px 0px;
+      color: #1a1a1a;
+
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.9px;
+      text-transform: capitalize;
+    }
+
+    .long_input_divs {
+      margin-bottom: 20px;
+      justify-content: center;
+      display: flex;
+
+      input {
+        color: #3c4242;
+        font-size: 1.4rem;
+        outline: none !important;
+        width: 60px !important;
+        margin: 0px 10px;
+        padding: 3px 10px;
+        text-align: center;
+        border-bottom: 2px solid #d8d8d8;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        background-color: transparent;
+        @media (max-width: 576px) {
+          width: 55px !important;
+        }
+        @media (max-width: 375px) {
+          width: 40px !important;
+        }
+      }
+    }
+    h6 {
+      color: #3c4242;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    h5 {
+      color: #3c4242;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: capitalize;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #3c4242;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: capitalize;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+  }
+
+  .btn_of_otps {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 10px;
+    color: #fff;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: #4dba4d;
+    box-shadow: 0px 0px 59px 0px rgba(29, 145, 148, 0.25);
+    border: none;
+  }
+}

@@ -1,0 +1,77 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand";
+}
+.slick-arrow {
+  display: none !important;
+}
+@media (max-width: 350px) {
+  .navbar-brand {
+    margin-right: 0px !important;
+    width: 35% !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+  .shopPageContainer {
+    padding: 0px 5px !important;
+  }
+}
+
+.css-13cymwt-control {
+  border: none !important;
+  background: transparent !important;
+}
+.css-t3ipsp-control:hover {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.css-t3ipsp-control {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+/* deleteit */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.slick-track {
+  margin-left: 0 !important;
+}
+
+.EZDrawer {
+  display: none;
+}
+.EZDrawer__container {
+  height: auto !important;
+  min-height: 220px !important;
+  max-height: 390px !important;
+  padding: 8px;
+  border-radius: 20px 20px 0px 0px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 767px) {
+  .EZDrawer {
+    display: block;
+  }
+}
+.css-shum31-control:hover {
+  border-color: #dcdcdc !important;
+}

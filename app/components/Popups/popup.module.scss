@@ -1,0 +1,134 @@
+.bg_wrapper_popup_new {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000000a1;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .popup_box_bpn {
+    width: 510px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    min-height: 200px;
+    max-height: 95vh;
+    margin: 0 10px;
+
+    @media (max-width: 481px) {
+      padding: 10px 20px;
+    }
+    .popup_header {
+      padding: 15px 0px;
+      position: relative;
+      .p_header_hding {
+        color: #000;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+      .view_user_list_head {
+        text-align: left;
+      }
+      .close_pp_btn {
+        position: absolute;
+        top: 0;
+        right: -10px;
+        cursor: pointer;
+        i {
+          color: #1d2c3d;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .locationMainDiv {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .btnOfDetectLocation {
+        border-radius: 6px;
+        background: #4dba4d;
+        color: #fff;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        padding: 15px;
+        outline: none;
+      }
+      .orDiv {
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 60px;
+        height: 60px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+      }
+      .forminput_wrapper {
+        display: flex;
+        justify-content: space-between;
+        .inputs {
+          border-radius: 6px;
+          border: 2px solid rgba(0, 0, 0, 0.23);
+          background: #fff;
+          padding: 12px;
+          width: 75%;
+          &::placeholder {
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .submit_btn {
+          border-radius: 6px;
+          background: #4dba4d;
+          color: #fff;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          border: none;
+          padding: 12px 30px;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes errorProgress {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes error_comes {
+  0% {
+    transform: translate(50%, -100%);
+  }
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .error_popup {
+    padding: 16px 3px;
+    transform: translate(50%, 0);
+    min-width: 293px;
+  }
+}

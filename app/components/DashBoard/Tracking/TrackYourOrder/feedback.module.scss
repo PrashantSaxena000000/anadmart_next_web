@@ -1,0 +1,83 @@
+.mainone {
+  width: 679px;
+  padding: 33px;
+
+  @media (max-width: 991px) {
+    width: 600px;
+    padding: 30px;
+  }
+  @media (max-width: 767px) {
+    width: 500px;
+    padding: 20px;
+  }
+  @media (max-width: 530px) {
+    width: 450px;
+  }
+  @media (max-width: 475px) {
+    width: 350px;
+    padding: 10px;
+  }
+  @media (max-width: 375px) {
+    width: 285px;
+  }
+  h4 {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+    @media (max-width: 2641px) {
+      font-size: 20px;
+    }
+    @media (max-width: 475px) {
+      font-size: 24px;
+    }
+  }
+  h6 {
+    color: #1a2e33;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+    @media (max-width: 475px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    @media (max-width: 475px) {
+      font-size: 14px;
+    }
+  }
+  .textArea {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #fff;
+    padding: 10px;
+    outline: none;
+  }
+  .buttonSendFeedBack {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: #4dba4d;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    @media (max-width: 475px) {
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,183 @@
+.privacy_wrapper {
+  background-color: #121212;
+  color: #fff;
+  padding: 70px 0;
+  .privacy_main {
+    .send_message {
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: #000;
+      .send_message_box {
+        display: flex;
+        padding: 5px;
+
+        input {
+          background-color: transparent;
+          border: #121212;
+          color: white;
+          outline: none;
+          width: 100%;
+          color: #9494a6;
+          font-family: "Montserrat";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          text-transform: capitalize;
+          padding-left: 10px;
+        }
+        .send_icon {
+          background-color: #0ceaef;
+          padding: 15px;
+          border-radius: 10px;
+        }
+      }
+    }
+    .detals_inqr {
+      display: flex;
+      align-items: flex-start;
+      margin: 20px 0;
+      .chat_answers {
+        width: 90%;
+      }
+      .qrbox {
+        color: #000;
+        background: #0ceaef;
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        background: #0ceaef;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }
+      ul {
+        color: #fff;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31px;
+      }
+    }
+    .privacy_main_headings {
+      color: #fff;
+      font-family: "Montserrat";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31px;
+      padding: 0px 0 15px 30px;
+    }
+    p {
+      color: #fff;
+      font-family: "Montserrat";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 31px;
+    }
+  }
+  .products {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chat_with_expertBtn {
+    border-radius: 6px;
+    background: #0ceaef;
+    border: none;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 22px;
+
+    font-weight: 800;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    transform: scale(1);
+    transition: 0.3s ease;
+
+    @media (max-width: 481px) {
+      font-size: 14px;
+    }
+
+    svg {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      border: 1px solid #fff;
+      background: transparent;
+      color: #fff;
+      transform: scale(1.1);
+      transition: 0.3s ease;
+
+      svg {
+        path {
+          fill: white;
+        }
+      }
+    }
+  }
+}
+
+.light_consultaion_wrapper {
+  background: #f9f9f9;
+  .privacy_main {
+    .send_message {
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: #fff;
+      .send_message_box {
+        input {
+          color: #000;
+        }
+        .send_icon {
+          background-color: #1da1f2;
+          svg {
+            path {
+              fill: white;
+            }
+          }
+        }
+      }
+    }
+    .detals_inqr {
+      .qrbox {
+        color: #fff;
+        background: #1da1f2;
+      }
+      ul {
+        color: #000;
+      }
+    }
+    .privacy_main_headings {
+      color: #000;
+    }
+    p {
+      color: #000;
+    }
+  }
+  .chat_with_expertBtn {
+    background: #1da1f2;
+    color: #fff;
+    svg {
+      path {
+        fill: white;
+      }
+    }
+    &:hover {
+      border: 1px solid #1da1f2;
+      color: #1da1f2;
+      svg {
+        path {
+          fill: #1da1f2;
+        }
+      }
+    }
+  }
+}

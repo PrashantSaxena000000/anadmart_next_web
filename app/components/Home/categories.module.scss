@@ -1,0 +1,103 @@
+.cate_wrappers {
+  .cate_head {
+    padding: 20px 5px;
+    padding-top: 60px;
+    @media (max-width: 1399px) {
+      padding-top: 40px;
+    }
+    @media (max-width: 1023px) {
+      padding-top: 20px !important;
+    }
+
+    @media (max-width: 767px) {
+      padding-top: 0px;
+    }
+    @media (max-width: 481px) {
+      padding-top: 0px !important;
+    }
+    h4 {
+      color: #000;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: start;
+    }
+  }
+  .cadMain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: space-around;
+    @media (max-width: 1199px) {
+      gap: 12px;
+    }
+  }
+}
+.catCard_wrapper {
+  border-radius: 10px;
+  background: #f6f6f6;
+  width: 200px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 1399px) {
+    width: 165px;
+  }
+  @media (max-width: 1199px) {
+    width: 140px;
+  }
+  @media (max-width: 767px) {
+    width: 120px;
+    height: 160px;
+  }
+  @media (max-width: 400px) {
+    width: 85px;
+    height: 130px;
+    padding: 0;
+  }
+
+  p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 15px;
+    }
+    @media (max-width: 481px) {
+      font-size: 12px;
+      padding: 0px;
+    }
+  }
+  .imfmandiv {
+    padding: 20px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 481px) {
+      min-height: 90px;
+      padding: 10px 0 0 0;
+      height: auto;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      @media (max-width: 481px) {
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+      }
+    }
+  }
+}

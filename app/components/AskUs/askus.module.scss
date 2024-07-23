@@ -1,0 +1,391 @@
+.askus_wrapper {
+  .upper_div {
+    background: #4dba4d;
+    padding: 60px 0px;
+    @media (max-width: 481px) {
+      padding: 25px 0px;
+    }
+    .div_of_asks {
+      h4 {
+        color: #fff;
+        text-align: center;
+        font-size: 37px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 47.126px;
+        letter-spacing: -0.74px;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        @media (max-width: 481px) {
+          font-size: 26px;
+          line-height: 34.126px;
+          margin-bottom: 20px;
+        }
+      }
+      h6 {
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22.063px;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        @media (max-width: 481px) {
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+      }
+      .asksinputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-bottom: 30px;
+        input {
+          border-radius: 200px;
+          background: #fff;
+          border: none;
+          width: 60%;
+          padding: 10px 40px;
+          @media (max-width: 767px) {
+            width: 80%;
+          }
+          @media (max-width: 481px) {
+            width: 90%;
+          }
+        }
+        svg {
+          position: absolute;
+          left: 275px;
+          @media (max-width: 1399px) {
+            left: 240px;
+          }
+          @media (max-width: 1199px) {
+            left: 200px;
+          }
+          @media (max-width: 991px) {
+            left: 150px;
+          }
+          @media (max-width: 767px) {
+            left: 65px;
+          }
+          @media (max-width: 481px) {
+            left: 30px;
+          }
+        }
+      }
+      .tab_disvs {
+        display: flex;
+        justify-content: center;
+
+        ul {
+          display: flex;
+          list-style: none;
+          justify-content: space-between;
+          width: 45%;
+          @media (max-width: 991px) {
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px;
+            width: 50%;
+          }
+          li {
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 44.126px;
+            letter-spacing: -0.4px;
+            text-transform: capitalize;
+            width: 100%;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .cards_divs {
+    background-color: #fafafa;
+    padding: 60px 10px;
+    .cardsss {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-between;
+    }
+  }
+}
+
+.askCard_wrapper {
+  background: #fff;
+  box-shadow: 0px 4px 94px 0px rgba(183, 183, 183, 0.25);
+  width: 30%;
+  padding: 20px;
+  @media (max-width: 767px) {
+    width: 46%;
+  }
+  @media (max-width: 481px) {
+    width: 98%;
+  }
+  .cardsvg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(77, 186, 77, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .askCardparas {
+    h4 {
+      color: #53686a;
+      font-size: 14.709px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22.063px;
+    }
+    p {
+      color: #53686a;
+      font-size: 11.767px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 17.651px;
+    }
+  }
+}
+.headSctions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px 0px 0px;
+  h4 {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.126px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+  }
+  button {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: 2px solid #4dba4d;
+    background: #4dba4d;
+    padding: 8px 30px;
+  }
+}
+.request_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  table {
+    width: 100%;
+    row-gap: 20px;
+    display: grid;
+    @media (max-width: 991px) {
+      width: 100%;
+      overflow: scroll;
+    }
+
+    tr {
+      border-bottom: 1px solid #d7d7d7;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      @media (max-width: 767px) {
+        width: 700px;
+      }
+
+      .head {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+        text-transform: capitalize;
+        width: 250px;
+      }
+      .head_no {
+        color: #4dba4d;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+        text-transform: capitalize;
+      }
+      .head_date {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.4px;
+        text-transform: capitalize;
+      }
+      .head_btn {
+        width: 120px;
+        button {
+          padding: 10px 15px;
+          color: #fff;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: -0.36px;
+          text-transform: capitalize;
+          border: none;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.messg_wrapper {
+  padding: 40px 0px;
+  h4 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.126px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+  .msgshead {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+    padding-top: 40px;
+
+    .msgSctn_wrapper {
+      margin-bottom: 15px;
+      padding: 0px 40px;
+      label {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        text-transform: capitalize;
+      }
+      .myMsg {
+        border-radius: 25px 25px 25px 0px;
+        background: #f1f1f1;
+        width: fit-content;
+        padding: 20px;
+      }
+    }
+    .sendmsgOPtnDiv {
+      background: #f1f1f1;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+      .inputdiv {
+        position: relative;
+        width: 90%;
+        input {
+          border-radius: 100px;
+          background: #fff;
+          border: none;
+          width: 100%;
+          padding: 15px 0px 15px 120px;
+          outline: none;
+        }
+        .svg_1 {
+          position: absolute;
+          top: 14px;
+          left: 40px;
+        }
+        .svg_2 {
+          position: absolute;
+          top: 14px;
+          left: 80px;
+        }
+      }
+      button {
+        border-radius: 100px;
+        background: #fff;
+        border: none;
+        color: #4dba4d;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        padding: 10px 30px;
+      }
+    }
+  }
+}
+
+.ticketWrapper {
+  padding: 60px 0px;
+  h4 {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.126px; /* 88.253% */
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  .selectBox {
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    background: #fff;
+    color: #8c8989;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: capitalize;
+    padding: 10px 5px;
+  }
+  .textContent {
+    padding: 40px 0px;
+    label {
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 125% */
+      text-transform: capitalize;
+    }
+    textarea {
+      border-radius: 6px;
+      border: 1px solid #dee2e6;
+      background: #fff;
+      resize: none;
+      width: 100%;
+      outline: none;
+      padding: 20px;
+    }
+  }
+  button {
+    border-radius: 4px;
+    background: #4dba4d;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 30px;
+  }
+}

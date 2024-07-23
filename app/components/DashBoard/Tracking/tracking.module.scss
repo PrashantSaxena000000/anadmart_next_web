@@ -1,0 +1,220 @@
+.tracking_wrapper {
+  .head_tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4 {
+      color: #121212;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 33.5px;
+      letter-spacing: 0.4px;
+      @media (max-width: 767px) {
+        font-size: 18px;
+      }
+      @media (max-width: 481px) {
+        font-size: 18px;
+      }
+      @media (max-width: 320px) {
+        font-size: 16px;
+      }
+    }
+
+    .save_div {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 35px;
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 33.5px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #000;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+        @media (max-width: 481px) {
+          margin-left: 20px;
+          font-size: 18px;
+        }
+        @media (max-width: 320px) {
+          font-size: 16px;
+          margin-left: 26px;
+        }
+      }
+    }
+  }
+  .tracking_tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    @media (max-width: 320px) {
+      gap: 12px;
+    }
+    .tracking {
+      color: #000;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 33.5px;
+      letter-spacing: 0.36px;
+      width: 20%;
+      margin: 0;
+      justify-content: center;
+      padding: 10px 0px;
+      align-items: center;
+      display: flex;
+      cursor: pointer;
+
+      @media (max-width: 1023px) {
+        width: 25%;
+      }
+      @media (max-width: 767px) {
+        width: 32%;
+      }
+      @media (max-width: 481px) {
+        font-size: 14px;
+      }
+    }
+    .trackingTabActive {
+      background-color: rgba(77, 186, 77, 0.1);
+      width: 20%;
+      color: #4dba4d;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 33.5px;
+      letter-spacing: 0.36px;
+      margin: 0;
+      justify-content: center;
+      padding: 10px 0px;
+      align-items: center;
+      display: flex;
+      border-bottom: #4dba4d 3px solid;
+      z-index: 1;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      cursor: pointer;
+      @media (max-width: 1023px) {
+        width: 25%;
+      }
+      @media (max-width: 767px) {
+        width: 32%;
+      }
+      @media (max-width: 481px) {
+        font-size: 14px;
+      }
+    }
+  }
+  hr {
+    margin: -2px 0px 15px 0px;
+  }
+}
+.allcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .EmptyImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      align-items: center;
+      font-size: 20px;
+    }
+  }
+  .Empty_svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .h_tag {
+      h4 {
+        align-items: center;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.mainone {
+  width: 450px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 991px) {
+    width: 600px;
+    padding: 30px;
+  }
+  @media (max-width: 767px) {
+    width: 500px;
+    padding: 20px;
+  }
+  @media (max-width: 530px) {
+    width: 450px;
+  }
+  @media (max-width: 475px) {
+    width: 350px;
+    padding: 10px;
+  }
+  @media (max-width: 375px) {
+    width: 275px;
+  }
+  h4 {
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 141.667% */
+    margin-bottom: 30px;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+    @media (max-width: 475px) {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+  }
+  .buttonDivs {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    @media (max-width: 530px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    .buttonNo {
+      color: #000;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      background: #d6d6d6;
+      border: none;
+      padding: 10px 60px;
+      @media (max-width: 530px) {
+        padding: 5px 30px;
+        font-size: 18px;
+      }
+    }
+    .buttonYes {
+      background: #e42525;
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+      padding: 10px 60px;
+      @media (max-width: 530px) {
+        padding: 5px 30px;
+        font-size: 18px;
+      }
+    }
+  }
+}

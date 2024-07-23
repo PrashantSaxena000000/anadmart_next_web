@@ -1,0 +1,164 @@
+.contact_Wrapper {
+  .background_secn {
+    background-image: url("../../assets/contact.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    .main_section {
+      display: flex;
+      padding: 40px 0px;
+      justify-content: space-between;
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      @media (max-width: 567px) {
+        padding: 0px 0px 30px 0px;
+      }
+      .leftSection {
+        width: 45%;
+        padding: 50px 0px;
+        @media (max-width: 767px) {
+          width: 100%;
+          padding: 25px 0px;
+        }
+        @media (max-width: 767px) {
+          width: 100%;
+          padding: 15px 0px;
+        }
+        h5 {
+          color: #4dba4d;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+        }
+        h4 {
+          color: #000;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 36px;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+          @media (max-width: 481px) {
+            font-size: 20px;
+          }
+        }
+        p {
+          color: #000;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 28px; /* 140% */
+          text-transform: capitalize;
+          margin-bottom: 15px;
+          @media (max-width: 481px) {
+            font-size: 18px;
+          }
+          span {
+            color: #000;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            text-transform: lowercase;
+            @media (max-width: 481px) {
+              font-size: 18px;
+            }
+          }
+        }
+        .supportBtns {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            margin: 0px;
+            color: #4dba4d;
+            font-family: Quicksand;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
+      }
+      .rightSection {
+        width: 50%;
+        @media (max-width: 767px) {
+          width: 100%;
+        }
+        .formDiv {
+          border-radius: 10px;
+          background: #fff;
+          box-shadow: 0px 4px 54px 0px rgba(0, 0, 0, 0.12);
+          padding: 20px;
+          @media (max-width: 567px) {
+            padding: 15px;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            select {
+              border-radius: 6px;
+              background: #f8f8f8;
+              border: none;
+              width: 100%;
+              padding: 20px;
+              outline: none;
+              @media (max-width: 567px) {
+                padding: 15px;
+              }
+              option {
+                border-radius: 6px;
+                background: #f8f8f8;
+                border: none;
+                width: 100%;
+                padding: 20px;
+                outline: none;
+              }
+            }
+            input {
+              outline: none;
+              border-radius: 6px;
+              background: #f8f8f8;
+              border: none;
+              width: 100%;
+              padding: 20px;
+              @media (max-width: 567px) {
+                padding: 15px;
+              }
+              &::-webkit-outer-spin-button,
+              &::-webkit-inner-spin-button {
+                appearance: none;
+              }
+            }
+            textarea {
+              outline: none;
+              border-radius: 6px;
+              background: #f8f8f8;
+              border: none;
+              width: 100%;
+              padding: 20px;
+              @media (max-width: 567px) {
+                padding: 15px;
+              }
+            }
+            button {
+              border-radius: 6px;
+              background: #4dba4d;
+              padding: 15px 40px;
+              border: none;
+              width: fit-content;
+              @media (max-width: 767px) {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

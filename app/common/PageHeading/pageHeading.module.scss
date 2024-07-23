@@ -1,0 +1,25 @@
+.head_img_div {
+  background-image: url("../../assets/head_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 567px) {
+    height: 85px;
+  }
+  h4 {
+    color: #000;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    @media (max-width: 567px) {
+      margin-top: 12px;
+      font-size: 28px;
+    }
+  }
+}
